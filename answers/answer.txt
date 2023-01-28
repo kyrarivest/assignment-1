@@ -1,3 +1,13 @@
 mkdir answers
 cd answers
-touch answers.txt
+4. touch answers.txt
+
+5. ls -a
+
+6. ls ../
+
+7. rm is the remove command and once you remove something you can't get it back. So, if you were to try to remove multiple files at once but yoou accidentaly spellled the name of oone wrong, you might miss it and then it's gone. To make it less dangerous, you could use the command "rm -i filename" which will ask you before it deletes.
+
+10. chmod 766 my_script.sh
+
+11. cd ../data
