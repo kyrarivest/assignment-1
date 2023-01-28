@@ -1,6 +1,8 @@
-mkdir answers
-cd answers
-4. touch answers.txt
+1. mkdir answers
+
+2. cd answers; touch answers.txt
+
+4. readlink -f answer.tx 
 
 5. ls -a
 
@@ -8,6 +10,20 @@ cd answers
 
 7. rm is the remove command and once you remove something you can't get it back. So, if you were to try to remove multiple files at once but yoou accidentaly spellled the name of oone wrong, you might miss it and then it's gone. To make it less dangerous, you could use the command "rm -i filename" which will ask you before it deletes.
 
+8. in the answers directory: mkdir results
+
+9. touch my_script.sh; vi myscipt.sh; insert the script code
+
 10. chmod 766 my_script.sh
 
-11. cd ../data
+11. cd ../assignment1-main-main/data
+
+12. ls -l | sort -n | tail -3 | head -1 | wc -w
+
+13. for i in {11..22}; do ../../answers/my_script.sh annual_aqi_by_cbsa_20$i.csv; done
+
+14. unzip \*.zip -d unzipped-files/
+
+15. rm *.zip
+
+16. cd unzipped-files; mv annual_aqi_by_country{2000..2003}.csv ../
