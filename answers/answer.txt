@@ -3,10 +3,13 @@
 2. cd answers; touch answers.txt
 
 4. readlink -f answer.tx 
+users/kyrarivest/GitHub/assignment-1/answers/answer.txt
 
 5. ls -a
+.		..		answer.txt	my_script.sh	results
 
 6. ls ../
+README.md		answers			assignment-1-main-main
 
 7. rm is the remove command and once you remove something you can't get it back. So, if you were to try to remove multiple files at once but yoou accidentaly spellled the name of oone wrong, you might miss it and then it's gone. To make it less dangerous, you could use the command "rm -i filename" which will ask you before it deletes.
 
