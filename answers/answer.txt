@@ -17,7 +17,7 @@ README.md		answers			assignment-1-main-main
 
 9. touch my_script.sh; vi myscipt.sh; insert the script code
 
-10. chmod 766 my_script.sh
+10. chmod 775 my_script.sh
 
 11. cd ../assignment1-main-main/data
 
