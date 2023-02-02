@@ -21,10 +21,10 @@ README.md		answers			assignment-1-main-main
 
 11. cd ../assignment1-main-main/data
 
-12. Largest by byte size:  ls -l | sort -n | tail -3 | head -1 | wc -w
-    Largest by word count: wc -w * | sort -n | tail -3 | head -1
+12. wc -w * | sort -n | tail -3 | head -1
 
 13. for i in {11..22}; do ../../answers/my_script.sh annual_aqi_by_cbsa_20$i.csv; done
+(note: i ran this command form the data directory)
 
 14. unzip \*.zip -d unzipped-files/
 
